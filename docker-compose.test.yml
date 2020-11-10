@@ -7,7 +7,7 @@ web:
         build: .
         dockerfile: Dockerfile
         links:
-               -redis
+               - redis
 redis:
         image: redis
 
